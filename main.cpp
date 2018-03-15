@@ -1,6 +1,5 @@
 #include <iostream>
 #include "Gear_control.h"
-
 using namespace std;
 int main()
 {
@@ -15,15 +14,12 @@ int main()
     while(1)
     {
         cout<<endl<<endl;
-
         cout<<"   CAR CONTROL SYSTEM   "<<endl;
-
         cout<<"1.Gear UP"<<endl;
         cout<<"2.Gear DOWN"<<endl;
         cout<<"4.Exit"<<endl;
         cout<<"Enter Your Choice:";
         cin>>choice;
-
         if(choice==4)   //if you press 7 option then it will out from the loop from here
         {
             break;
@@ -47,7 +43,6 @@ int main()
 
                 }
                 break;
-
         }
     }    return 0;
 }
